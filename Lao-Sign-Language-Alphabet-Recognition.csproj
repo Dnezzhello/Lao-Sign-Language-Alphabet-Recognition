@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Lao_Sign_Language_Alphabet_Recognition</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.8.1.5350" />
+    <PackageReference Include="Emgu.CV.Bitmap" Version="4.8.1.5350" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />
+    <PackageReference Include="Emgu.CV.UI" Version="4.8.1.5350" />
+    <PackageReference Include="Keras.NET" Version="3.8.5" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.17.0" />
+    <PackageReference Include="NumSharp" Version="0.30.0" />
+    <PackageReference Include="OpenCVSharp" Version="2.4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="model\" />
+  </ItemGroup>
+
+</Project>
